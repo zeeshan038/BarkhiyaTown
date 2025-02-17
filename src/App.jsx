@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import "./App.css";
 import Footer from "./Components/Footer";
+import WhatsApp from "./Pages/WhatsApp";
 
 
 // Lazy-loaded components
@@ -25,6 +26,7 @@ function App() {
     <BrowserRouter>
       <Suspense fallback={<Loading />}>
         <Navbar />
+        <WhatsApp/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
