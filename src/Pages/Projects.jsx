@@ -52,36 +52,41 @@ const Projects = () => {
             </motion.p>
 
             {/* Project Cards */}
-            <div className="flex flex-wrap mx-3 items-center mt-10 justify-center gap-6 pb-16">
-                {projects.map((project, index) => (
-                    <motion.div
-                        key={index}
-                        className="relative group rounded-lg overflow-hidden cursor-pointer"
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.1 }}
-                        viewport={{ once: false }}
-                        whileHover={{ scale: 1.05 }}
-                    >
-                        {/* Image */}
-                        <div className="w-full mt-6 h-[250px] sm:h-[300px] md:h-[350px] xl:h-[400px] relative">
-                            <img
-                                src={project.image}
-                                alt={project.title}
-                                className="md:h-96 mt-5 w-full xl:w-[450px] 2xl:w-[520px] rounded-md transition-all duration-500 ease-in-out group-hover:scale-110"
-                            />
-                        </div>
-
-                        {/* ✅ Fixed Overlay (Now positioned correctly below image) */}
-                        <div className="absolute -bottom-3 translate-y-1/2 w-full flex justify-center">
-                            <div className="w-[90%] max-w-[320px] bg-white shadow-xl rounded-md p-3 flex items-center justify-center gap-3 text-center">
-                                <img src={project.icon} alt={project.title} className="w-10 h-10" />
-                                <h1 className="text-lg font-semibold">{project.title}</h1>
-                            </div>
-                        </div>
-                    </motion.div>
-                ))}
-            </div>
+           <div className="flex flex-col-reverse md:flex-row items-start gap-10 p-10  md:p-20 justify-center mt-32 md:mt-52">
+                 {/* Image Animation - Slides from Left */}
+                 <motion.div
+                   initial={{ opacity: 0, x: -100 }}
+                   whileInView={{ opacity: 1, x: 0 }}
+                   transition={{ duration: 0.8, ease: "easeOut" }}
+                   viewport={{ once: false }} // Animates every time it comes into view
+                 >
+                   <img
+                     src={school}
+                     alt="About Barkhiya"
+                     
+                     className="w-full "
+                 
+                   />
+                 </motion.div>
+           
+                 {/* Text Content Animation - Slides from Right */}
+                 <motion.div
+                   initial={{ opacity: 0, x: 100 }}
+                   whileInView={{ opacity: 1, x: 0 }}
+                   transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                   viewport={{ once: false }} 
+                 >
+                   <h1 className="text-5xl font-bold">Turning Dreams Into Reality</h1>
+                   <p className="max-w-2xl text-xl mt-2 space-y-2">
+                     Nestled in the heart of Charssada and Mardan, Barkhiya Town is a
+                     visionary housing project designed to transform the lives of its
+                     residents and the wider community. Our mission is to create a
+                     thriving, inclusive, and sustainable community that empowers its
+                     residents with access to quality education, economic opportunities,
+                     and modern amenities.
+                   </p>
+                 </motion.div>
+               </div>
 
         </div>
     );
