@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import videoBg from "../../public/promo.mp4"; // Background for Home
-import projectBanner from "../../public/projectBanner.jpeg"; // Background for About
-import projectBanner1 from "../../public/projectBanner-1.jpeg"; // Background for About
-import logo from "../../public/logo.png";
-import logoText from "../../public/logo-text.png";
+import projectBanner from "../assets/projectBanner.jpeg"; // Background for About
+import projectBanner1 from "../assets/projectBanner-1.jpeg"; // Background for About
+import logo from "../assets/logo.png";
+import logoText from "../assets/logo-text.png";
 import { FaPhone } from "react-icons/fa6";
-import about1 from '../../public/about-1.png'
-import about2 from '../../public/about-2.png'
+import about1 from '../assets/public/about-1.png'
+import about2 from '../assets/about-2.png'
 import { FiMenu, FiX } from "react-icons/fi";
 const Navbar = () => {
     const location = useLocation();
