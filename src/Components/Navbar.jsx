@@ -6,7 +6,7 @@ import projectBanner1 from "../assets/projectBanner-1.jpeg"; // Background for A
 import logo from "../assets/logo.png";
 import logoText from "../assets/logo-text.png";
 import { FaPhone } from "react-icons/fa6";
-import about1 from '../assets/public/about-1.png'
+import about1 from '../assets/about-1.png'
 import about2 from '../assets/about-2.png'
 import { FiMenu, FiX } from "react-icons/fi";
 const Navbar = () => {
