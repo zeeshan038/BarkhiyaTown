@@ -38,15 +38,32 @@ const Footer = () => {
                     <div className="space-y-2">
                         <div className="flex items-center justify-center lg:justify-start gap-2">
                             <FaLocationDot />
-                            <span>Barkhiya town charsadda</span>
+                            <span>
+                            DHQ Hospital Rd, Chārsadda, <br />
+                             Charsadda, Khyber Pakhtunkhwa 24451
+                            </span>
                         </div>
-                        <div className="flex items-center justify-center lg:justify-start gap-2">
-                            <IoCallSharp />
-                            <span>+92 1010101001</span>
+                        <div className="flex flex-col items-start justify-center lg:justify-start gap-2">
+                           <div className="flex items-center gap-1">
+                           <IoCallSharp />
+                           <span>+923116203188</span>
+                           </div>
+                           <div className="flex items-center gap-1">
+                           <IoCallSharp />
+                           <span>+9203116203187</span>
+                           </div>
+                           <div className="flex items-center gap-1">
+                           <IoCallSharp />
+                           <span>
+                           (091) 6570111
+                           </span>
+                           </div>   
                         </div>
                         <div className="flex items-center justify-center lg:justify-start gap-2">
                             <MdMail />
-                            <span>Barkhiya@gmail.com</span>
+                            <span>
+                            Barkhiyacharsadda@gmail.com
+                            </span>
                         </div>
                     </div>
                 </div>

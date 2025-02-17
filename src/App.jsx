@@ -12,7 +12,13 @@ const Contact = lazy(() => import("./Pages/Contact"));
 const Projects = lazy(() => import("./Pages/Projects"));
 
 // Fallback UI
-const Loading = () => <div className="text-center text-xl mt-10">Loading...</div>;
+const Loading = () => {
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <div className="w-12 h-12 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+    </div>
+  );
+};
 
 function App() {
   return (
@@ -25,9 +31,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/upcomming-projects" element={<Projects />} />
         </Routes>
-      
+        <Footer/>
       </Suspense>
-   <Footer/>
+
     </BrowserRouter>
   );
 }
