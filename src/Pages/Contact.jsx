@@ -80,7 +80,7 @@ const Contact = () => {
                         <h2 className="text-2xl font-bold mt-3 mb-2">Email Adress</h2>
 
                         <p className="text-lg flex items-center gap-2">
-                            <MdEmail/>
+                            <MdEmail />
                             <a href="mailto:Barkhiyacharsadda@gmail.com" className=" hover:underline">
                                 Barkhiyacharsadda@gmail.com
                             </a>
@@ -90,6 +90,19 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Map  */}
+            <div className="w-full mt-10 pb-10">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.7860502647814!2d71.8451954!3d34.0749984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d93915034ba309%3A0xf34a2b6c31967a7a!2sBarkhiya%20Town%20Charsadda!5e0!3m2!1sen!2s!4v1739793904045!5m2!1sen!2s"
+                    width="100%"
+                    height="450"
+                    allowFullScreen=""
+                    loading="lazy"
+                    className="border-0"
+                ></iframe>
+            </div>
+
         </div>
     );
 };
