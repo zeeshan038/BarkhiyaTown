@@ -74,8 +74,8 @@ const Navbar = () => {
       <nav className="absolute top-0 left-0 w-full flex items-center justify-around px-6 md:px-8 py-4 text-white z-50">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src={logo} alt="Logo" className="h-16" />
-          <img src={logoText} alt="Logo Text" className="h-12  " />
+          <img src={logo} alt="Logo" className="h-8" />
+          <img src={logoText} alt="Logo Text" className="h-6  " />
         </Link>
 
         {/* Desktop Menu */}
@@ -97,7 +97,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-0 left-0 w-full h-screen bg-black flex flex-col items-center justify-center text-white space-y-8 text-2xl">
+        <div className="absolute top-0 left-0 w-full h-screen bg-[#183630] flex flex-col items-center justify-center text-white space-y-8 text-2xl">
           <Link to="/" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/upcomming-projects" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>Projects</Link>
           <Link to="/about" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>About</Link>
