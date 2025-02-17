@@ -25,7 +25,7 @@ const Navbar = () => {
                         autoPlay
                         loop
                         muted
-                        className=""
+                        className="w-full object-cover"
                     />
                 );
                 case "/upcomming-projects":
