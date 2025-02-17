@@ -6,7 +6,7 @@ import school from "../assets/schooll.jpeg";
 import schoolicon from "../assets/schoolicon.jpg";
 import hospital from "../assets/hospital.jpeg";
 import hospitalicon from "../assets/hospital.png";
-import farmHouse from "../assets/FarmHouse.jpeg";
+import farmHouse from "../assets/farmHouse.jpeg";
 import farmHouseicon from "../assets/farmHouse-icon.png";
 import lakeView from "../assets/lake-view2.jpeg";
 import lakeViewicon from "../assets/lakeView.png";
