@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import videoBg from "../../public/promo.mp4"; // Background for Home
+import videoBg from "../assets/promo.mp4"; // Background for Home
 import projectBanner from "../assets/projectBanner.jpeg"; // Background for About
 import projectBanner1 from "../assets/projectBanner-1.jpeg"; // Background for About
 import logo from "../assets/logo.png";
