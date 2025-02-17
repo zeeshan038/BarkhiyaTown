@@ -39,7 +39,7 @@ const Projects = () => {
                     alt="Logo"
                     className="h-16 absolute hidden lg:block lg:bottom-10 -left-6 lg:-left-16 -rotate-12"
                 />
-                Upcoming & Ongoing Projects
+                Upcoming & Ongoing Project
             </motion.h1>
 
             {/* Paragraph Animation */}
