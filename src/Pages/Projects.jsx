@@ -9,7 +9,7 @@ import hospitalicon from "../assets/hospital.png";
 import farmHouse from "../assets/farmHouse.jpeg";
 import farmHouseicon from "../assets/farmHouse-icon.png";
 import lakeView from "../assets/lake-view2.jpeg";
-import lakeViewicon from "../assets/lakeView.png";
+import lakeViewicon from "../assets/lakeview.png";
 import adventure from "../assets/Arena2.jpeg";
 import adventureicon from "../assets/adventure.png";
 import logo from "../assets/logo.png";
