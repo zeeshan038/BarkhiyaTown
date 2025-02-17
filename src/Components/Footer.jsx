@@ -3,8 +3,8 @@ import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
 import { MdMail } from "react-icons/md";
-import logo from '../assets/logo.png'
-import logoText from '../assets/logo-text.png'
+import logo from '../../public/logo.png'
+import logoText from '../../public/logo-text.png'
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (

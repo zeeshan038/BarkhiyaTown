@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import about from '../assets/about.jpeg'
+import about from '../../public/about.jpeg'
 const AboutUs = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row items-start bg-[#183630] gap-10 p-10  md:p-20 text-white justify-center mt-32 md:mt-52">

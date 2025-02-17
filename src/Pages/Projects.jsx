@@ -1,18 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
-import horseRide from '../assets/horseRide.jpeg'
-import horseRideicon from '../assets/horse-ridingIcon.png'
-import school from '../assets/schooll.jpeg'
-import schoolicon from '../assets/schoolicon.jpg'
-import hospital from '../assets/Hospital.jpeg'
-import hospitalicon from '../assets/hospital.png'
-import farmHouse from '../assets/FarmHouse.jpeg'
-import farmHouseicon from '../assets/farmHouse-icon.png'
-import lakeView from '../assets/lake-view2.jpeg'
-import lakeViewicon from '../assets/lakeview.png'
-import adventure from '../assets/Arena2.jpeg'
-import adventureicon from '../assets/adventure.png'
-import logo from '../assets/logo.png'
+import horseRide from "../../public/horseRide.jpeg"
+import horseRideicon from '../../public/horse-ridingIcon.png'
+import school from '../../public/schooll.jpeg'
+import schoolicon from '../../public/schoolicon.jpg'
+import hospital from '../../public/hospital.jpeg'
+import hospitalicon from '../../public/hospital.png'
+import farmHouse from '../../public/FarmHouse.jpeg'
+import farmHouseicon from '../../public/farmHouse-icon.png'
+import lakeView from '../../public/lake-view2.jpeg'
+import lakeViewicon from '../../public/lakeView.png'
+import adventure from '../../public/Arena2.jpeg'
+import adventureicon from '../../public/adventure.png'
+import logo from '../../public/logo.png'
 const Projects = () => {
     return (
         <div className="mt-20 mx-auto flex flex-col gap-3 justify-center items-center">

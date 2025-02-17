@@ -1,8 +1,8 @@
 
 import React from "react"
 import { motion } from "framer-motion";
-import arena from '../assets/Arena.jpeg'
-import location from '../assets/location-icon.webp'
+import arena from '../../public/Arena.jpeg'
+import location from '../../public/location-icon.webp'
 const Page = () => {
   return (
     <div className="flex flex-col mx-4 sm:mx-6 lg:mx-12 gap-8 items-center justify-center mt-10 pb-20">
